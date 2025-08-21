@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.boxes{
+    margin: 50px;
+    display: flex;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+#grey{
+    background-color: rgb(75, 74, 74);
+}
+#pink{
+    background-color: rgb(204, 59, 119);
+}
+#blue{
+    background-color: rgb(18, 18, 156);
+}
+#violet{
+    background-color: rgb(85, 19, 148);
+}
